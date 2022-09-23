@@ -167,7 +167,9 @@ p {
   }
 
   .img-ilustra {
-    display: none;
+    width: 350px;
+    height: 300px;
+   
   }
    
  
