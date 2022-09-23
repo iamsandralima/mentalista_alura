@@ -23,7 +23,7 @@
 • JS <br>
 
 
-Conhecimentos adquiridos: 
+Conteúdo: 
 
 * 		Adicionar um número de tentativas para tentar acertar e imprimir a resposta no final.
 * 		Quando errar, deixar na mensagem se o número chutado é maior ou menor que o número secreto.
