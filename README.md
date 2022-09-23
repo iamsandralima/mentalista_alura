@@ -21,7 +21,7 @@
 • HTML <br>
 • CSS <br>
 • JS <br>
-
+🔗 [Clique aqui para acessar](https://iamsandralima.github.io/mentalista_alura)
 
 Conteúdo: 
 
