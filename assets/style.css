@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+
+/* configurações gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'signika', sans-serif;
+  text-decoration:none;
+  align-items: center;
+}
+
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #F8F9F9;;
+}
+
+
+.number-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.page-title {
+  font-size: 28px;
+  color: #000;
+  margin: 20px;
+  margin-bottom: 3rem;
+  align-items: center;
+ 
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  
+}
+
+.primaryInput {
+  width: 298px;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 15px;
+  margin-bottom: 1rem;
+  font-family: 'signika', Arial, sans-serif;
+  font-size: 1rem;
+  outline: none;
+  background-color:#f7b3fe;
+
+}
+
+.button {
+  background: #ff5100;
+  border: 1px solid #ff5100;
+  width: 298px;
+  height: 60px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-bottom: 3px;
+
+  
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff5100;
+}
+
+.button:active {
+  opacity: .5;
+}
+
+.img-ilustra {
+  display: flex;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  height: 500px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.alura-logo {
+  width: 50px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* Footer */
+
+.divider {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  height: 3.2px;
+  background: linear-gradient(to left,  rgb(255, 81, 0), #f7b3fe);
+     
+}
+
+.footer_copy {
+  font-size: 15px;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+
+
+
+@media only screen  and (max-width: 950px){
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+/* Celular- visualização/*/
+@media only screen  and (max-width: 600px){
+
+
+  .number-container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: auto ;
+  }
+
+  .img-ilustra {
+    display: none;
+  }
+   
+ 
+}
